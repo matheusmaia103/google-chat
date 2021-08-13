@@ -53,8 +53,6 @@ function SignIn (){
 
 function UserOut() {
 
-  const handleSingOut = () =>{
-  }
   return auth.currentUser && (
     <button
     onClick = {() => auth.signOut()}
