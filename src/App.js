@@ -33,6 +33,7 @@ function SignIn (){
   const signInWithFacebook = () =>{
     const provider = new firebase.auth.FacebookAuthProvider();
     auth.signInWithPopup(provider);
+    alert('login feito')
   }
 
   return(
@@ -123,7 +124,7 @@ function ChatRoom() {
 function ChatMessage(props) {
   const {text, photoURL, uid} = props.message;
 
-  const messageClass = uid === auth.currentUser.id ? 'sent' : 'received'
+  const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received'
   return (
     <div
     class={`message ${messageClass}`}
