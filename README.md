@@ -1,3 +1,7 @@
+# About this project
+This project was made by me using firebase for autentication and for saving messages that users send. I was exploring what react and firebase could do together and I loved it.
+<a href="https://google-chat.netlify.app/">Check it out</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
